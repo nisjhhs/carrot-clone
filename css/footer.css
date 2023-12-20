@@ -32,3 +32,19 @@ footer {
   width: 35px;
   height: 35px;
 }
+
+@keyframes icons-doongdoong {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.footer-icons:hover .footer-icons__img {
+  animation: 2s icons-doongdoong infinite;
+}
